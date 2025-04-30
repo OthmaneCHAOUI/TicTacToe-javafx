@@ -1,0 +1,29 @@
+.display {
+    -fx-color: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+}
+
+.button {
+    -fx-background-color: rgb(200, 239, 248);
+    -fx-font-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-font-size: 50px;
+}
+
+.button:hover {
+    -fx-background-color: rgb(126, 227, 250);
+}
+
+.restartBtn {
+    -fx-background-color: #f8faa1;
+    -fx-font-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-font-size: 20px;
+}
+
+.restartBtn:hover {
+    -fx-background-color: #fdff87;
+}
