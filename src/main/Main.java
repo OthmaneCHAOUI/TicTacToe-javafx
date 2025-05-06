@@ -9,12 +9,12 @@ import javafx.event.*;
 import javafx.geometry.*;
 import javafx.scene.text.*;
 
-public class Main extends Application{
+public class Main exten Application{
     private Label display;
     private Button[][] buttons = new Button[3][3];
     private String currentPlayer = "X";
     private String[][] board = new String[3][3]; 
-    
+    ds
     @Override
     public void start(Stage stage){
         setBoard();
