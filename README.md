@@ -112,11 +112,16 @@ phase completes successfully.
 
 ## Contributing
 
-Contributions and improvements are welcome. Please open an issue to discuss a
-substantial change before submitting a pull request, and keep changes focused
-on the application's gameplay, JavaFX UI, or build configuration.
+Contributions, bug reports, and suggestions are welcome.
+
+1. Fork the repository.
+2. Create a branch for your changes.
+3. Make and test your changes.
+4. Commit your work with a descriptive message.
+5. Open a pull request describing the changes.
+
+If a `CONTRIBUTING.md` file is added later, refer to it for detailed contribution guidelines.
 
 ## License
 
-No license file is currently included in this repository. Add a license before
-redistributing the project.
+See the [LICENSE](LICENSE) file for the project's reuse, modification, and distribution terms.
