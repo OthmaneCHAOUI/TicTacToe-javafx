@@ -47,7 +47,7 @@ public class Main extends Application{
         // seting window
         stage.setTitle("Tic Tac Toe Game");
         Scene scene = new Scene(grid, 400, 500);
-        scene.getStylesheets().add(getClass().getResource("../style/style.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("../../resources/style/style.css").toExternalForm());
         stage.setScene(scene);
         stage.show();
     }
