@@ -32,10 +32,12 @@ game to be started with the **RESTART** button.
 
 The application uses a compact JavaFX structure:
 
-- `main.Main` extends `Application` and owns the board state, turn
-  handling, win/draw detection, and event handlers.
-- `style.css` defines the visual styles for the board, status label, and
-  restart button.
+- `io.github.othmanechaoui.tictactoe.Main` starts the JavaFX application.
+- `GameController` coordinates user actions and game state updates.
+- `Game` and the model classes own board state, turn handling, and win/draw
+  detection.
+- `game_view.fxml` defines the UI layout, while `style.css` defines the visual
+  styles for the board, status label, and restart button.
 - Maven manages Java compilation, JavaFX dependencies, and application
   execution through the JavaFX Maven Plugin.
 
@@ -90,9 +92,14 @@ phase completes successfully.
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── main/Main.java
+│       │   └── io/github/othmanechaoui/tictactoe/
+│       │       ├── Main.java
+│       │       ├── controller/
+│       │       ├── model/
+│       │       └── view/
 │       └── resources/
-│           └── style/style.css
+│           ├── style/style.css
+│           └── view/game_view.fxml
 └── README.md
 ```
 
