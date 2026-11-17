@@ -90,8 +90,9 @@ phase completes successfully.
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   ├── main/Main.java
-│       │   └── style/style.css
+│       │   └── main/Main.java
+│       └── resources/
+│           └── style/style.css
 └── README.md
 ```
 
